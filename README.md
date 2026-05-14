@@ -11,7 +11,7 @@ See full paper on arxiv: [RF-Squad: A radiofrequency simulator for quantum dot a
 1. Clone the repository
 
    ```sh
-   git clone xyz
+   git clone git@github.com:Quantum-Motion/rfsquad.git
    ```
 
 1. Install `rfsquad` and its dependencies with poetry:
