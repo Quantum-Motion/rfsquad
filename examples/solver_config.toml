@@ -1,0 +1,22 @@
+[Device]
+C_dd = [[10.0, -0.05, -0.01], [-0.05, 10.0, -0.05], [-0.01, -0.05, 10.0]]
+C_dg = [[2.0, 0.5, 0.5], [0.5, 2.0, 0.5], [0.5, 0.5, 2.0]]
+dot_names = ["dot1", "dot_2", "dot_3"]
+gate_names = ["gate_1", "gate_2", "gate_3"]
+plunger_gates = ["gate_1", "gate_2", "gate_3"]
+# barrier_gates = []
+
+[Device.gate_voltages]
+gate_1 = 0
+gate_2 = 0
+gate_3 = 0
+
+[Device.threshold_voltages]
+gate_1 = 0
+gate_2 = 0
+gate_3 = 0
+
+[Solver]
+max_charge_carriers = 2
+reduce_fock_space = false
+use_virtual_gates = false
