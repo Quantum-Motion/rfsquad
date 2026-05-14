@@ -10,7 +10,7 @@ from scipy.constants import physical_constants  # type: ignore
 from rfsquad.utils.utils_ci import _cim_einsum
 
 if TYPE_CHECKING:
-    from digitaltwin.core import Device
+    from rfsquad.core import Device
 
 """
 This module provides functions for the implementation for simulating quantum dot systems for the RFSolver, using eigenvalue calculations to determine energy levels
